@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+.title {
+
+  font-family: Rancho;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 75px;
+  /* identical to box height */
+  
+  color: #FFFFFF;
+}
+.flexContainer {
+  display: flex; /* or inline-flex */
+
+}
