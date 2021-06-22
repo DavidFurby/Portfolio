@@ -15,7 +15,9 @@ body {
   margin-left: 2rem;
   margin-right: 2rem;
 }
-
+#navigation {
+  text-decoration: none;
+}
 h1 {
   color: #3E4756;
 
@@ -38,7 +40,9 @@ nav {
 nav a {
   margin: 2rem;
   font-weight: bold;
-  color: #A2ACBD
+  color: #A2ACBD;
+  text-decoration: none;
+
 }
 
 nav a:hover {
@@ -51,8 +55,6 @@ nav .logo {
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
   color: #A2ACBD;
   background-color: whitesmoke;

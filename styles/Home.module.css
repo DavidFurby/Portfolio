@@ -16,19 +16,18 @@
   /* or inline-flex */
   justify-content: flex-start;
   align-items: space-between;
+  overflow: hidden; 
 }
 
 .imgShadow {
   width: 417px;
-  height: 60rem;
+  height: 70rem;
   left: 1200px;
   top: 140px;
   background: rgba(196, 196, 196, 0.4);
   mix-blend-mode: normal;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-
-  overflow: hidden; 
 }
 
 
