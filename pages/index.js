@@ -1,6 +1,6 @@
 
-import styles from '../styles/home.module.css'
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import styles from '../styles/Home.module.css'
+import { Image } from 'react-bootstrap';
 
 export default function Home() {
   return (
@@ -21,12 +21,12 @@ export default function Home() {
               <div className="row justify-content-around mt-5">
                 <div  className="col-md-auto" >
                   <a href="https://github.com/DavidFurby">
-                    <Image src="/Github.png" width={42} height={41.02} />
+                    <Image alt="github" src="/Github.png" width={42} height={41.02} />
                   </a>
                 </div>
                 <div className="col-md-auto">
                   <a href="https://www.linkedin.com/in/david-furby-62a40b134/">
-                    <Image src="/LinkedIn.png" width={42} height={41.02} />
+                    <Image alt="linkedIn" src="/LinkedIn.png" width={42} height={41.02} />
                   </a>
                 </div>
               </div>
