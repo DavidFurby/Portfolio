@@ -31,8 +31,9 @@
   background-color: whitesmoke;
   mix-blend-mode: multiply;
   animation-name:slideInFromTop; 
-  animation-duration: 4s; 
-
+  animation-duration: 2s; 
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 @keyframes imageFadeIn {

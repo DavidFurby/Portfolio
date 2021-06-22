@@ -9,11 +9,7 @@ const experience = () => {
                     <div className={styles.imgShadow}>
                         <div className="container text-center">
                             <Image className="" src="/Krogis.png" fluid />
-                            <p>Jag heter David Furby och är 23 år. Nyligen gjorde jag klart min utbildning i Java och
-                                webbutvecklings på yrkeshögskolan i Mölndal, och söker just nu anställning. Jag har
-                                studerat på Campus Mölndal i två år, och har bland annat jobbat med Java, JavaScript,
-                                React, Vue, Native, PostgreSQL, Firebase, Spring Boot och MongoDB. Under studietiden har jag även jobbat med ett startupföretag som heter Krogis. Där jag har rollen att bygga deras
-                                frontend. </p>
+                            <Image className="w-50 mt-5" src="/KrogisExample.png" fluid />
                         </div>
                     </div>
                 </div>
@@ -21,6 +17,7 @@ const experience = () => {
                     <div className={styles.imgShadow}>
                         <div className="container text-center">
                             <Image className="" src="/Krogis.png" fluid />
+                            <Image className="w-50 mt-5" src="/SvenskParfymExample.png" fluid />
                         </div>
                     </div>
                 </div>
@@ -28,6 +25,7 @@ const experience = () => {
                     <div className={styles.imgShadow}>
                         <div className="container text-center">
                             <Image className="" src="/Krogis.png" fluid />
+                            <Image className="w-50 mt-5" src="/YH-KollenExample.png" fluid />
                         </div>
                     </div>
                 </div>
