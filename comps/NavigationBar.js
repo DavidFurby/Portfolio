@@ -4,7 +4,7 @@ const NavigationBar = () => {
     return (
         <div>
             <Navbar className="d-flex justify-content-end">
-                <Nav >
+                <Nav>
                     <Link href="/">Om mig</Link>
                     <Link href="/experience">Erfarenheter</Link>
                 </Nav>

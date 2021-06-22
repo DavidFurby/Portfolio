@@ -9,6 +9,7 @@ body {
   font-family: "Roboto";
   color: #3E4756;
   mix-blend-mode: normal;
+  overflow: hidden; 
 }
 
 .content {
@@ -53,14 +54,24 @@ nav a:hover {
 nav .logo {
   margin-right: auto;
 }
-
+@keyframes slideInFromLeft {
+  
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 footer {
   width: 100%;
+  height: 10%; 
   color: #A2ACBD;
   background-color: whitesmoke;
   mix-blend-mode: multiply;
-  overflow-x: hidden;
+  animation: 2s ease-out 0s slideInFromLeft; 
 }
+
 footer div {
   display: flex;
   /* or inline-flex */
@@ -73,4 +84,10 @@ footer div {
   /* or inline-flex */
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 500px) {
+  body{
+    overflow: auto; 
+  }
+  
 }
