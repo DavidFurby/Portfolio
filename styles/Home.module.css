@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700&display=swap');
+
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 112px;
+  /* identical to box height */
+  color: #3E4756;
+}
+.imgContainer {
+  width: 26.063rem; 
+  height: 50rem; 
+ 
+}
+@keyframes slideInFromTop {
+  
+  0% {
+    transform: translate(0, 100%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+ .imgShadow {
+  width: 100%;
+  height: 100%; 
+  color: #A2ACBD;
+  background-color: whitesmoke;
+  mix-blend-mode: multiply;
+  animation-name:slideInFromTop; 
+  animation-duration: 2s; 
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+@keyframes imageFadeIn {
+  
+  0% {
+    transform: translateY(-20%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
