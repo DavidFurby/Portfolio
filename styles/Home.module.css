@@ -1,17 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700&display=swap');
 
 .title {
-
-  font-family: Rancho;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  font-size: 60px;
-  line-height: 75px;
+  font-size: 96px;
+  line-height: 112px;
   /* identical to box height */
-  
-  color: #FFFFFF;
+  color: #3E4756;
 }
-.flexContainer {
-  display: flex; /* or inline-flex */
 
+.container {
+  margin: 3rem;
+  display: flex;
+  /* or inline-flex */
+  justify-content: flex-start;
+  align-items: space-between;
+}
+
+.imgShadow {
+  width: 417px;
+  height: 60rem;
+  left: 1200px;
+  top: 140px;
+  background: rgba(196, 196, 196, 0.4);
+  mix-blend-mode: normal;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+  overflow: hidden; 
+}
+
+
+.img {
+  border-radius: 20px;
 }

@@ -1,5 +1,6 @@
 const experience = () => {
-    return (<div>
+    return (
+    <div>
         <h1>Experience</h1>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
@@ -21,7 +22,8 @@ const experience = () => {
             officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum
             nesciunt ipsum debitis quas al
         </p>
-    </div>);
+    </div>
+    );
 }
 
 export default experience;

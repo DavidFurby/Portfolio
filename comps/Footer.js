@@ -1,8 +1,12 @@
+import Image from "next/image"
+
 const Footer = () => {
     return (
         <footer>
-            <p>Git</p>
-            <p>LinkedIn</p>
+              <div>
+              <Image src="/Github.png" width={42} height={41.02} />
+              <Image src="/LinkedIn.png" width={42} height={41.02} />
+          </div>
         </footer>
     );
 }
