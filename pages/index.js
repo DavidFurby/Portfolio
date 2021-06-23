@@ -1,5 +1,6 @@
 
 import styles from '../styles/Home.module.css'
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -20,12 +21,12 @@ export default function Home() {
               <div className="row justify-content-around mt-5">
                 <div className="col-md-auto" >
                   <a href="https://github.com/DavidFurby">
-                    <img className={`${styles.icon} img-fluid`}  alt="github" src="/Github.png" width={42} height={41.02} />
+                    <Image className={`${styles.icon}`}  alt="github" src="/Github.png" width={42} height={41.02} />
                   </a>
                 </div>
                 <div className="col-md-auto">
                   <a href="https://www.linkedin.com/in/david-furby-62a40b134/">
-                    <img className={`${styles.icon} img-fluid`}  alt="linkedIn" src="/LinkedIn.png" width={42} height={41.02} />
+                    <Image className={`${styles.icon}`}  alt="linkedIn" src="/LinkedIn.png" width={42} height={41.02} />
                   </a>
                 </div>
               </div>
