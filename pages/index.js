@@ -16,7 +16,7 @@ export default function Home() {
         </div>
         <div className={styles.imgContainer}>
           <div className={styles.imgShadow}>
-            <img className={`${styles.img} img-fluid`}  src="/Me.jpg"  />
+            <Image className={`${styles.img} img-fluid`}  src="/Me.jpg"  />
             <div className="container">
               <div className="row justify-content-around mt-5">
                 <div className="col-md-auto" >
