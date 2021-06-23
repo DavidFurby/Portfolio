@@ -1,7 +1,6 @@
 
 import styles from '../styles/Home.module.css'
-import Image from "next/image"
-
+import { Image } from 'react-bootstrap'
 export default function Home() {
   return (
     <div className="container mt-5">
@@ -16,7 +15,7 @@ export default function Home() {
         </div>
         <div className={styles.imgContainer}>
           <div className={styles.imgShadow}>
-            <Image className={`${styles.img} img-fluid`}  src="/Me.jpg"  />
+            <Image className={`${styles.img} img-fluid`}  src="/Me.jpg" fluid />
             <div className="container">
               <div className="row justify-content-around mt-5">
                 <div className="col-md-auto" >
