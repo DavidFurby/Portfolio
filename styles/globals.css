@@ -72,13 +72,6 @@ footer {
   animation: 2s ease-out 0s slideInFromLeft; 
 }
 
-footer div {
-  display: flex;
-  /* or inline-flex */
-  justify-content: align;
-  align-items: center;
-  left: 15rem; 
-}
 .accounts {
   display: flex;
   /* or inline-flex */
