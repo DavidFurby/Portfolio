@@ -9,7 +9,7 @@
 
 .desc {
   opacity: 0;
-  font-size: 25px;
+  font-size: 23px;
   animation: FadeIn 2s forwards;
   animation-delay: 2s;
 
@@ -57,7 +57,7 @@
 .img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  animation: slideInFromBottom 3s forwards;
+  animation: slideInFromBottom 3s;
 }
 
 .icon {

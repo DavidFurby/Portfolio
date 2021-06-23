@@ -1,14 +1,13 @@
-import { Navbar, Nav } from "react-bootstrap";
 import Link from "next/link";
 const NavigationBar = () => {
     return (
         <div>
-            <Navbar className="d-flex justify-content-end border-bottom">
-                <Nav>
+            <nav className="navbar d-flex justify-content-end">
+                <div className="nav">
                     <Link href="/">Om mig</Link>
                     <Link href="/experience">Erfarenheter</Link>
-                </Nav>
-            </Navbar>
+                </div>
+            </nav>
         </div>
     );
 };
