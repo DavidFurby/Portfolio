@@ -3,7 +3,7 @@
 .imgContainer {
     width: 20.563rem;
     height: 60rem;
-    margin-top: 5rem;
+    margin-top: 6rem;
     transition: margin 1s; 
 }
 .imgContainer:hover {
