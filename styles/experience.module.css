@@ -3,11 +3,11 @@
 .imgContainer {
     width: 20.563rem;
     height: 60rem;
-    margin-top: 6rem;
-    transition: margin 1s; 
+    padding-top: 6rem;
+    transition: padding 1s; 
 }
 .imgContainer:hover {
-    margin-top: 3rem;
+    padding-top: 3rem;
 
 }
 
